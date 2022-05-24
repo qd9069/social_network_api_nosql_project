@@ -27,6 +27,7 @@ const thoughtSchema = new Schema(
     {
         toJSON: {
             virtuals: true,
+            getters: true,
         },
         id: false,
     }
@@ -40,10 +41,9 @@ thoughtSchema
     });
 
 // function to format the unix timestamp
-function formatTime (unixTimestamp) {
-    // if (!unixTimestamp) return unixTimestamp;
-    const date = new Date(unixTimestamp*1000);
-    return (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+function formatTime (date) {
+    // console.log(date);
+    return date.toLocaleString();
 };
 
 // Initialize our Thought model
