@@ -4,7 +4,7 @@
 
 ## Link
 
-Please click [here](https://watch.screencastify.com) to find the walkthrough video that demonstrates the functionality of the Social Network API application.
+Please click [here](https://watch.screencastify.com/v/L2J0vdX8myV6mlUHmWFn) to find the walkthrough video that demonstrates the functionality of the Social Network API application.
 
 ## Description
 
